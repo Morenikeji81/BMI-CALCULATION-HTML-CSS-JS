@@ -6,7 +6,7 @@ const card = document.getElementById('myDisplay')
 function myFunction() {
   let x = document.getElementById("myDisplay");
   if (x.style.display === "none") {
-    x.style.display = "block";
+    x.style.display = "grid";
   } else {
     x.style.display = "none";
   }
